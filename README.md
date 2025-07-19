@@ -13,7 +13,7 @@ The task is to build a machine learning model to predict CO2 emissions by differ
 
 Project also aims at testing the influence of different independent features on the emission of CO2 using statistical methods. 
 
-<img src = "https://github.com/d0r1h/CO2-Emission-by-Cars/blob/main/static/co2_emission.gif" width = 200>
+
 
 ### DataSet:
 
@@ -40,7 +40,7 @@ We experimented with different methods for model building
 
 ## Project Pipeline
 
-<img src = "static/C02_Arch_Diagram.png" width = 800>
+
 
 
 
@@ -52,14 +52,7 @@ We experimented with different methods for model building
 
 ### Usage [running locally]:
 
-```python
-conda create -n envname python=3.7
-activate envname
-git clone https://github.com/d0r1h/CO2-Emission-by-Cars.git
-cd CO2-Emission-by-Cars
-pip install -r requirements.txt
-python app.py
-```
+
 
 ## Results 
 
@@ -69,12 +62,11 @@ python app.py
 * Following image shows score table for different models
 
 
-<img src = "https://github.com/d0r1h/CO2-Emission-by-Cars/blob/main/static/co2_score.png" width = 800> 
+ 
 
 
 ### Inference Demo:
-
-Application is deployed on heroku and can be accessed at https://coemission.herokuapp.com/ and following data can be used to test the application. 
+ 
 
 |Engine Size|Cylinders|Fuel Consumption City|Fuel Consumption Hwy|Fuel Consumption Comb| Fuel Consumption Comb (mpg) | Fuel Types | Transmission type | Make | Vechicle Class | CO2 Emissions | 
 | ------------- | ------------- | -------- | -------- |-------- |------- |------- | ------ | ------- | ------- | ------- |
